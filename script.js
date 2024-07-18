@@ -38,7 +38,7 @@ document.getElementById('surveyForm').addEventListener('submit', function(event)
         data[key] = value;
     });
 
-    fetch('https://script.google.com/macros/s/AKfycbxyCGcOYebWR1_1WX3foaW3tEHVdsN26P3mZAr2Tfa_Ig_m0U_fXWwlRlUO1OnXRBip/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbydKNG--pOr2P0WPnxvGCCKlQ6uGuPChQ24SKNgE8K54SGce0q1swsMfo4GBAnTEMU1/exec', {
         method: 'POST',
         headers: {
             'Content-Type': 'text/plain',
